@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Revamping GlusterFS website for expanded participation</title>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i" as="style" onload="this.rel = 'stylesheet'">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav>
+		<h1><a href="/">deb's blog</a></h1>
+  </nav>
+  <section id="content">
+		<h1>Revamping GlusterFS website for expanded participation</h1>
+		<p>I'm getting my feet wet with <a href="http://www.gluster.org/" target="_blank">GlusterFS community</a>. If you haven't heard of it yet, it's a distributed cloud file system by Red Hat. It's an open-source project with many goodness within, which empower Red Hat Storage (RHS) server.</p>
+		<p>I was asked to look into the Gluster.org project site &amp; make suggestions on how can we make it better. Better is a subjective term; it depends on the end goal and how far the plan can achieve it. I've set myself a goal &amp; the goal is to radically increase participation in Gluster project.</p>
+		<p>There are several parts to act on this, and all those will be communicated with in apt channels. This post, however, focuses on renovating the website as the public face &amp; funnel to drive participation &amp; contributions.<!--more--></p>
+		<h2>0. Forewords</h2>
+		First of all, thanks to who have worked on whichever part of the GlusterFS website (especially <code>tigert</code>). To keep the post to the point, I'd intentionally keep the discussion around the things which we can do better, than those which already are better. If my thoughts appears hurtful/callous for that - I'm sorry, not at all my intention. I just wanna help.
+		<p>I'll discuss the website strategy in a total four umbrella parts - Contents, Hierarchy, Channels, Engagements. More importantly, I'll talk about how can we set up a system that leads to a better website, than describing the trivialities of how the website should look, or which all buttons should it have.</p>
+		<h2>1. Contents</h2>
+		The flesh of the website is the content that it holds. How does it expose those information, are part of the next section (Hierarchy), but for now, let's consider everything to be flat.
+		<h4>i. The Cause</h4>
+		Let's not presume the visitors to know a lot about us (or to know a lot of jargon). Let's give them an interesting but simple introduction. Let's explain why the project matters, and why should one support it.
+		<p>Folks who start contributing to FLOSS for a cause they can relate to, are the ones who go the longest of ways.</p>
+		<h4>ii. The Pitch</h4>
+		The key differentiating factor between a corporate product website &amp; a FOSS project site can be boiled down to (IMO):
+		<ul>
+			<li>While the former screams out, "<strong>Look, a cool new product! You should buy it.</strong>"</li>
+			<li>The later introduces itself as, "<strong>Hey, we're a super nice community. Join us!</strong>"</li>
+		</ul>
+		We just need to tune ourselves for the later.
+		<h4>iii. The Outreach</h4>
+		Not everyone would join. But it shouldn't be because they never heard us calling.
+		<p>We need to make sure we're not being too narrow on our outbound channels. We need to have a face on all social channels, make them easily discoverable &amp; should actively make those channels participatory; letting the visitors choose their favorite channel(s).</p>
+		<p>More on this later.</p>
+		<h4>iv. The Promise</h4>
+		Those who know the volunteer drop rates in FLOSS world, understands how important it is to be there for the new folks whenever they're stuck at the time of discovery.
+		<p>The promises can be of various forms, including <a href="http://git-scm.com/book" target="_blank">super-complete documentation</a>, <a href="https://www.docker.com/tryit/" target="_blank">super-interactive demos</a>, <a href="irc://irc.mozilla.org/#introduction" target="_blank">super-nice people</a> or, something else... or, all of them!</p>
+		<p>What matters is, folks willing to join are comfortable believing in, whenever they need some help, it'll be there for them. Always.</p>
+		<h4>v. The Takeaway</h4>
+		The sense of achieving something is the main driving factor for most people. Even when we're spending hours in toilet, playing Flappy Bird or 2048, we're essentially trying to achieve a target high-score, or to do better than before.
+		<p>The takeaway comes in various forms for different people. In open source world, those are primarily:</p>
+		<ol>
+			<li>The feel good factor of doing something that helps others</li>
+			<li>The interesting &amp; smart way that they've solved a problem</li>
+			<li>The global scale of impact they create &amp; recognition they get</li>
+			<li>The freebies.</li>
+		</ol>
+		Human brain, at least subconsciously, <strong>would</strong> determine the takeaway to justify any effort it's pondering to give. Let's make sure, we understand &amp; implement this part cautiously &amp; flawlessly.
+		<p>FWIW, dashboards of contributor stats, contributor spotlight blog-posts, paid positions opportunities, supporting contributors to create-presence/spread-words, T-shirts/Stickers, Potato/Banana - all of them would work (&amp; some of them are parts of the website-strategy; hence the mention/detailing).</p>
+		<h2>2. Hierarchy</h2>
+		The contents are the flesh to the hierarchy skeleton. We need to get the structure right - to ensure maximum reach out of shared information. For a FLOSS project it'll have to be community-facing &amp; welcoming. The need of structured content-discovery would matter more than a shiny animation or picture of smiling people.
+		<h4>i. The Landing Page</h4>
+		Remember we talked about "<em>The Cause</em>"? Yes, this is our time to get it right.
+		<p>The first view of the landing page should make sure why the project exists in this world &amp; why should it be nurtured for growth. To get this right essentially means a higher chance the visitor to even navigate to other part of the site to discover what it is about.</p>
+		<p>Apart from <em>the cause</em>, all the other parts of the content should just leave easily discoverable trails in the landing page &amp; link out to different dedicated portals for catering to more details.</p>
+		<h4>ii. The Code Repos</h4>
+		In GlusterFS, we have the <a href="http://forge.gluster.org/" target="_blank">Forge</a>, which is a private Gitorious deployment, to host code upstream. There's a <a href="https://github.com/gluster/glusterfs" target="_blank">GitHub mirror</a> (<a href="https://github.com/gluster/glusterfs/pulls?q=is%3Apr+is%3Aclosed" target="_blank">where we don't accept much participation</a>), <a href="http://review.gluster.org/" target="_blank">Gerrit</a> for code review, <a href="https://bugzilla.redhat.com/enter_bug.cgi?product=GlusterFS" target="_blank">Bugzilla</a> for issue tracking, Jenkins for integration &amp; not nearly enough concise, public documentation to get people started with development.
+		<p>This disconnect is so huge, any new contributor is bound to feel lost while starting with code-contributing without heavy hand-holding.</p>
+		<p>If we can get a <strong>code.gluster.org</strong> up, focused towards code-contributions &amp; list/link all the portals, such as Forge, Github, Bugzilla (with easy/good-first-bug search listings), Gerrit, Jenkins, dev-env setup docs etc. That should merge this gap.</p>
+		<p><strong>On this note</strong>, using GitHub as valid participation gateway can also work wonders. Just because we don't accept pull-requests through GitHub means we're missing out on a heavy amount of code contributions (I have a story from last year &amp; ballpark estimation on this).</p>
+		<h4>iii. The Documentations</h4>
+		Let me just list down the various disconnected efforts, making the current state of docs:
+		<ul>
+			<li>[Static HTML] <a href="http://www.gluster.org/documentation/" target="_blank">http://www.gluster.org/documentation/</a></li>
+			<li>[Mediawiki] <a href="http://www.gluster.org/community/documentation/" target="_blank">http://www.gluster.org/community/documentation/</a></li>
+			<li>[In-source] <a href="https://github.com/gluster/glusterfs/tree/master/doc" target="_blank">https://github.com/gluster/glusterfs/tree/master/doc</a></li>
+			<li>[Markdown] <a href="https://github.com/GlusterFS/Notes" target="_blank">https://github.com/GlusterFS/Notes</a> <em>and more...</em></li>
+		</ul>
+		Holy FFF...Fragmentation!
+		<p>Let's just have a Gluster-skinned Mediawiki deployment on <strong title="or maybe wiki.gluster.org, or somewhere like that - but in one place">docs.gluster.org</strong>, m'kay?</p>
+		<h4>iv. The Blog</h4>
+		The public engagement happens in the blog. The blog tells the story of recent developments, activities, super-contributors, need-to-knows (announcements) etc.
+		<p>I'd give any new visitors 10 mins to discover the GlusterFS blog from visiting the site or tinkering with URL. And the moment you figure you've found it, you're wrong - you've found the landing page, Plan B.</p>
+		<p>So here's the deal:</p>
+		<ul>
+			<li>On the landing page click on "About" on top Nav</li>
+			<li>In About page's top Nav there's a "Blog" (<a href="http://www.gluster.org/blog/">http://www.gluster.org/blog/</a>)</li>
+			<li>It leads/redirects you to <a href="http://blog.gluster.org/">http://blog.gluster.org/</a> - which seems like you got it, but wrong... this is <em>that</em> landing page, plan B.</li>
+			<li>Check the TRENDING TOPICS section &amp; click on "Community Blog"</li>
+			<li>Now you're at <a href="http://blog.gluster.org/blog/">http://blog.gluster.org/blog/</a> - which <strong>is</strong> the de-facto blog - voila!</li>
+			<li>Oh wait, <a href="http://something.gluster.org/blog/">http://something.gluster.org/blog/</a> works too, in fact <a href="http://anything.gluster.org/blog/">http://anything.gluster.org/blog/</a> works!</li>
+		</ul>
+		A lot of efforts can go in to the Blog &amp; very well should.
+		<h2>3. Channels</h2>
+		As discussed earlier, let's not be unheard from any part of the Internet's Social Media.
+		<p>I'm talking of the outbound channels (social profiles) as well as inbound ones (communication platforms). Presently we're very picky about where we broadcast ourselves, and from where we listen from. But that may be a major bottleneck of contributor engagement.</p>
+		<h4>i. Outbound</h4>
+		We already have our blog, as well as Twitter, Facebook, Google+ profiles. Before we get on to more platforms, we should have better presence on these existing platforms.
+		<p>All these channels should foster participation &amp; discussion; shouldn't be one off posts on regular interval &amp; no responses on if discussions started.</p>
+		<p>If we're lacking necessary dedicated people to manage these all channels, maybe tools/services like IFTTT can help.</p>
+		<h4>ii. Inbound</h4>
+		IRC &amp; Mailing list is there. Either of which will take at least 5mins to explain to any new contributor. Their communication preferences has changed drastically in last couple of years. And being orthodox here would simply narrow our own option of community growth.
+		<p>We do need people to discover the beauty in those tools - we do. But that can't be the 0th day thing. That just makes the entry barrier higher.</p>
+		<p>Let's keep ourselves open to all sorts of communications tools. Facebook Group Chat, WhatsApp, Telegram, Hangouts groups, Slack - it's a non-exhaustive list, and most of the tools are spammy in nature. So what?</p>
+		<p>The moment a discussion gets serious/material, we can move them to <em>serious channels</em>. That shouldn't be hard!</p>
+		<p>What all I'm saying is, I myself might not be joining all those channels/platforms - I may not even like/use many of them. But that's <em>my preference</em> &amp; that's no reason to set limits on <em>others preferences</em>. This applies to all existing community members.</p>
+		<h2>4. Engagements</h2>
+		So, we've done good enough job with the previous three parts. We've came up with the proper details, structured them out in right way, shouted out to spread the word &amp; heard back from the people - got noticed &amp; got good people coming in.Now what?
+		<p>Now it's time to give them a purpose to be in the community.</p>
+		<p>Cool demos, interactive getting started guide, different teams &amp; focus groups (no, everyone won't be willing to fix bugs), easy to discover &amp; low-hanging chores in the community (including, managing social profiles - see?), managing/fixing documentation, host events &amp; talk about the project, thin VM images with GlusterFS developer environment setup for the daring souls - these all (and more) can be what gives people an opportunity to help the project, in their own ways. The engagement is what helps them collect takeaways from the project.</p>
+		<h2>5. Wrap up</h2>
+		I've had a list of stuff broken in our website. Including (and not limited to) the test-score results/screenshot of all the UX &amp; Performance benchmarks for all sub-sites - to be an objective critic. But beyond my best effort, it kept looking like a public shaming of the existing contributors, torn from a cynical's diary &amp; pasted on the village pump. So I re-wrote the entire thing, focusing more on how it should be, than how it is.
+		<p>Thanks for being with me till here. Wish I could pack better punch(lines) in lesser words.</p>
+		<p>Although, sure I've left many things underdiscussed &amp; that's where the comments would come handy. I want to hear from all of you. Once we reach consensus on most of the topics here, we can start implementing them in the project.</p>
+		<!--
+		To the GlusterFS folks: sorry, it took a while. I was caught in limbo of deciding to move my blog (and the madness that comes with it) having this sitting in the drafts for a while.
+
+		My post is focused towards looking at all the aspects of GlusterFS as an open source projects and make observations, how we can do better at growing the community.
+		<h2>1. Branding</h2>
+		I'll discuss branding in two parts, the logo &amp; styleguide.
+
+		![Current GlusterFS Logo](/content/images/2015/02/antmascot.png)
+
+		<strong>GlusterFS logo</strong> now is an "Ant Carrying a Leaf". It's pretty well drawn piece of artwork, but here are the things:
+		<ol>
+			<li>A confused/scared ant carrying a leaf doesn't tell us much about distributed cloud file storage &amp; leaves a lot on imagination.</li>
+			<li>The logo doesn't fit well in various formats (chromatic: monochrome/bichrome, dimensional: favicon/16x16px).</li>
+			<li>Was there a community driven effort to create the logo? If not, is _now_ a good time to go for it?</li>
+		</ol>
+		The last one is a killer, actually. I failed to find any open discussion &amp; most people working on GlusterFS doesn't have much idea about it (either origination or explanation).
+
+		There are several impressive logos which represent a brand quite successfully (let's take <a href="http://9gag.com/gag/a9LMqb1" target="_blank">this informal list</a>, to start with). Can't we do much better?
+
+		Now, the next one: <strong>StyleGuide</strong>. Apparently, there's none. A styleguide is supposed to draw boundaries of what can &amp; can't be done with the branding, as well as giving access to official assets of the branding.
+
+		This is very important, because a StyleGuide enables consistency of brand appearances in different media (from presentation decks to publish media). Also, a repository of official assets enables easy to refer &amp; use (mostly from legal implications) of the brand items, typography, colors etc.
+
+		Mozilla's <a href="https://www.mozilla.org/styleguide/identity/mozilla/branding/" target="_blank">StyleGuide</a> &amp; <a href="http://assets.mozillalabs.com/" target="_blank">assets</a> pages can be of inspiration, when we're at it.
+		<h2>2. Community</h2>
+		The <a href="http://www.gluster.org/community/" target="_blank">community page</a> of Gluster site currently lists the available funnels for the contributors to get in. It does a good job at mentioning the various channels, and enlist purposes of each one.
+
+		However, here are some key missing points to note:
+		<ol>
+			<li>For a new visitor, <strong>there's no information about "why" should they join, or "how" they can contribute</strong>. This seems trivial (from already-a-community-member's point of view), but can be the leading reason for someone to just open the page &amp; close it. Really, "why" should I join?</li>
+			<li><strong>Only two lowest hanging participation endpoints are IRC &amp; Mailing List</strong>. Both of which are seemingly <em>last-decade technology</em> for the new folks. It's upto us to help them discover the beauty in these tools, but that can't be the 0th day thing.</li>
+			<li><strong>More open social channels</strong> to encourage participation. The twitter handle <em>needs to</em> participate in more discussions in the twitter world when people mentioning/asking about it. We also should consider listing Facebook/Google+ pages in there (not only in page footers) for more visibility.</li>
+			<li><strong>People prefer a familiar form of code-hosting/issue-tracking/patch-review solution(s)</strong>. <a href="https://forge.gluster.org/" target="_blank">Gluster Forge</a> as the hosting solution, decoupled RHBZ as the issue tracking solution AND a Gerrit instance for code review is too much to discover &amp; too high an initial barrier (especially without a step by step guide to get on with code-contribution).</li>
+			<li><strong>There's no community directory</strong> (although there's consultant's list) &amp; the only community discovery link to <a href="http://www.meetup.com/GlusterFS" target="_blank">meetup.com/GlusterFS</a> leads to a non-existing group. It's not the only link that's broken on the site, though. Also, there's an eventbrite link in the footer - which works, but you probably didn't even notice it, right?</li>
+		</ol>
+		Each of these points can lead to full-fledged discussions, and that'd be the right way to go on about it. For the sake of looking forward for the discussion, I'll skip making preemptive arguments on those points.
+
+		But for a moment, let's just move away from the /community page. Let's think of ourselves as a new member to the community (or find a friend &amp; make him/her be part of the community) &amp; list down the pain points while trying to be a part of the community. For me (as a new member to the community) the pain points are:
+		<ol>
+			<li>No listing of prospective ways to contribute</li>
+			<li>No way to find good-first-bugs to start with</li>
+			<li>No way to discover the governance model</li>
+			<li>No easy way to find out who to reach out to</li>
+			<li>I've joined the mailing list &amp; IRC - now what?</li>
+			<li>Having extremely tough time setting up dev-env</li>
+			<li>Feel of a product promotion site than a community project</li>
+			<li>Information I need to know are either hard to discover or non-existent</li>
+		</ol>
+		I'm sure most of the issues that I face aren't designed to be felt that way... it's just that they've been less of a priority for a long time, and folks have been incredibly more focused to make the software better.
+
+		Which is a good thing. But having more people to get involved can be yet another way to make the software better. Designing for participation should be a priority for any FOSS project.
+		<h4>Quick thoughts on Governance</h4>
+		The governance model actually deserves a dedicated section to not go unnoticed.
+
+		The footer says, <strong>© 2013–2015 Red Hat, Inc.</strong>
+
+		Now, a project having a corporate backing initially is a very good thing. It helps people have trust in the future/development of the project. However, this is probably not the best thing to do have for an open source community looking for self-sustaining growth. The corporate-tieup (upto the point of the corp. owning even the project-page contents) may discourage many contributors/contributions in various ways.
+
+		Above is just an example, but we seriously need to look into GlusterFS having a proper, defined &amp; discoverable governance structure, considering how it fits with growth of the community, module based ownerships, responsibility delegation &amp; succession plans.
+
+		==========================================
+
+		Presently, the landing page is a static website [<a href="https://forge.gluster.org/gluster-site" target="_blank">source</a>] built with a rubygem, called <a href="https://middlemanapp.com/" target="_blank">Middleman</a>. The landing page can be developed statically without the need of a static site generator, the reasons being:
+		<ul>
+			<li>Deploying can be as easy as <code>$ git pull</code>.</li>
+			<li>Enhance/fix/test/troubleshoot - rather easy</li>
+			<li>More people can chime in to help cause it's familiar</li>
+			<li>The end result is same (worst case scenario), or better</li>
+			<li>An iterative &amp; lean system is more fit to <a href="http://www.azarask.in/blog/post/the-wrong-problem/" target="_blank">solve the right problem</a></li>
+		</ul>
+		-->
+  </section>
+  <footer>
+    <code>{}</code> with <code>&lt;3</code> by Deb
+  </footer>
+</body>
+</html>
